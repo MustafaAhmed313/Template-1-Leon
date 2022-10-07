@@ -586,6 +586,16 @@ header .container img {
     }
 }
 
+@media (max-width: 1199px) {
+    .about .about-container::before {
+        display: none;
+    }
+
+    .about .about-container::after {
+        display: none;
+    }
+}
+
 /* ----------------------------------------------------------- */
 
 /* contact */
